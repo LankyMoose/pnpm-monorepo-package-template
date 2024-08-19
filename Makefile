@@ -1,8 +1,5 @@
 build:
-	pnpm run -r build
+	pnpm --filter !"./sandbox/*" run -r build
 
 test:
-	pnpm run -r --parallel test
-
-publish:
-	cd package && npm publish
+	NODE_ENV=development pnpm --filter !"./sandbox/*" run -r --parallel test

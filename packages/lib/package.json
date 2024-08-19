@@ -1,5 +1,5 @@
 {
-  "name": "my-package",
+  "name": "MY-PACKAGE",
   "version": "1.0.0",
   "description": "An awesome new package",
   "main": "dist/index.js",
@@ -13,6 +13,6 @@
     "build": "tsc"
   },
   "keywords": [],
-  "author": "Robby6Strings",
+  "author": "MY-GITHUB",
   "license": "ISC"
 }

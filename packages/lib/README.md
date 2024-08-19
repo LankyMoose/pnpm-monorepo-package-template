@@ -1,4 +1,4 @@
-# **Package Name**
+# **MY-PACKAGE**
 
 #### _An awesome new package._
 

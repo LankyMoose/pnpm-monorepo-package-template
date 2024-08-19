@@ -1,9 +1,10 @@
 {
-  "name": "my-package-demo",
+  "name": "node-package-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "build": "tsc",
@@ -13,6 +14,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "my-package": "workspace:^"
+    "MY-PACKAGE": "workspace:^"
   }
 }

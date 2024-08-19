@@ -1,6 +1,6 @@
-# MY-PACKAGE
+# !!MY-PACKAGE!!
 
-Development monorepo template for **MY-PACKAGE**.
+Development monorepo template for **!!MY-PACKAGE!!**.
 
 Get started by running
 
@@ -16,7 +16,7 @@ node setup --package packagename --github mygithubusername --email me@hotmail.co
   - Contains workflows used by GitHub Actions.
 - `packages`
   - Contains the individual packages managed in the monorepo.
-  - [MY-PACKAGE](https://github.com/MY-GITHUB/MY-PACKAGE/blob/main/packages/lib)
+  - [!!MY-PACKAGE!!](https://github.com/!!MY-GITHUB!!/!!MY-PACKAGE!!/blob/main/packages/lib)
 - `sandbox`
   - Contains example applications and random tidbits.
 

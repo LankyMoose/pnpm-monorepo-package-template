@@ -53,3 +53,8 @@ for (const file of files) {
     .replaceAll("%EMAIL-ADDRESS%", email)
   fs.writeFileSync(filePath, updatedContent)
 }
+
+console.log("Setup complete")
+
+// delete setup.js
+fs.unlinkSync("setup.js")

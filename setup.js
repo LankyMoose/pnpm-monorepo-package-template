@@ -45,7 +45,6 @@ const files = fs
   )
 
 for (const file of files) {
-  console.log(`Updating ${file.name}`, file)
   const filePath = path.join(file.path, file.name)
   const content = fs.readFileSync(filePath, "utf8")
   const updatedContent = content
